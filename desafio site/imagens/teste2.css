@@ -1,0 +1,122 @@
+:root
+{   --cor1:#C5EBD6;
+    --cor2:#83E1AD;
+    --cor3:#3DDC84;
+    --cor4:#2FA866;
+    --cor5:#063D1E;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+@font-face {
+    font-family:'Android';
+    src: url(../fontes/idroid.otf);
+}
+ 
+*{margin:0;
+padding:0;}
+
+
+main{margin-left: 5px;
+margin-right: 5px;}
+
+iframe{margin: auto;
+display: block;}
+
+header{background-image:linear-gradient(#259958,#063D1E);
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.imagembone{margin: auto;
+    display: block;
+width: 30%;}
+
+header>h1{color: white;
+  text-shadow: 4px 4px 7px black;
+    padding-top: 25px;
+ 
+}
+header>p{color: white;
+    padding-top: 10px;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+
+}
+
+
+nav{background-color: #063D1E;
+padding: 5px;
+}
+nav>a{margin-right:10px;
+    color: white;
+    text-decoration: none;
+padding-left: 15px;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);}
+
+article>p>a{color:#063D1E}
+
+a:hover{ text-decoration: underline;
+color:rgba(241, 239, 239, 0.911);}
+
+.imagem3{display: block;
+    width: 70%;
+margin: auto;}
+
+main{max-width: 1200px;
+    background-color: white;
+margin: auto;}
+
+main > article > h2 { background-image: linear-gradient(to right,var(--cor3),transparent);
+    color:var(--cor5);
+    padding-left: 30px;    
+        font-size: 1.2em;
+    font-family: var(--fonte-android);
+}
+.irina{width: 80%;
+    display: block;
+    margin: auto;
+}
+
+main>article>p{margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+    text-indent: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 2em;
+    }
+
+    article>h1{font-family: var(--fonte-android);
+        padding-top: 20px;
+        padding-left: 30px;
+        color: var(--cor5);
+    }
+aside{background-color: #2fa8658c;
+margin-top: 15px;
+margin-left: 15px;
+margin-bottom: 30px;
+margin-right: 15px;
+border-radius: 5px;
+}
+
+aside>h3{ background-color: #063d1ebe;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+aside>p{padding: 10px;
+text-align: justify;
+margin: auto;}
+
+ul{columns: 2;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+footer{background-color: #063D1E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 0.8em;
+text-align: center;}
+
+

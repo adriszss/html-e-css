@@ -1,0 +1,20 @@
+body{ background-image: linear-gradient(to bottom,#8C2641,#8C2641);
+height: 100%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+main{background-color: azure;
+width: 800px;
+padding:10px;
+margin: auto;
+border-radius:5px;
+box-shadow:7px 7px 7px #F2CED8;}
+
+h1{text-align: center;
+color:#FAACC4;
+text-shadow: 3px 3px 2px #F2CED8;}
+
+h2{color:#FAACC4}
+
+p{ text-align: justify;
+  color:  black;
+}
